@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7FE5DA81E2048D500A85644 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FE5DA71E2048D500A85644 /* AppDelegate.swift */; };
+		A7FE5DAA1E2048D500A85644 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FE5DA91E2048D500A85644 /* ViewController.swift */; };
+		A7FE5DAD1E2048D500A85644 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7FE5DAB1E2048D500A85644 /* Main.storyboard */; };
+		A7FE5DB01E2048D500A85644 /* Hex___RGB_Converter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7FE5DAE1E2048D500A85644 /* Hex___RGB_Converter.xcdatamodeld */; };
+		A7FE5DB21E2048D500A85644 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7FE5DB11E2048D500A85644 /* Assets.xcassets */; };
+		A7FE5DB51E2048D500A85644 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7FE5DB31E2048D500A85644 /* LaunchScreen.storyboard */; };
+		A7FE5DC01E2048D500A85644 /* Hex___RGB_ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FE5DBF1E2048D500A85644 /* Hex___RGB_ConverterTests.swift */; };
+		A7FE5DCB1E2048D500A85644 /* Hex___RGB_ConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FE5DCA1E2048D500A85644 /* Hex___RGB_ConverterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7FE5DBC1E2048D500A85644 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7FE5D9C1E2048D500A85644 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7FE5DA31E2048D500A85644;
+			remoteInfo = "Hex - RGB Converter";
+		};
+		A7FE5DC71E2048D500A85644 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7FE5D9C1E2048D500A85644 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7FE5DA31E2048D500A85644;
+			remoteInfo = "Hex - RGB Converter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7FE5DA41E2048D500A85644 /* Hex - RGB Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hex - RGB Converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7FE5DA71E2048D500A85644 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7FE5DA91E2048D500A85644 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A7FE5DAC1E2048D500A85644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7FE5DAF1E2048D500A85644 /* Hex___RGB_Converter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Hex___RGB_Converter.xcdatamodel"; sourceTree = "<group>"; };
+		A7FE5DB11E2048D500A85644 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7FE5DB41E2048D500A85644 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7FE5DB61E2048D500A85644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7FE5DBB1E2048D500A85644 /* Hex - RGB ConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hex - RGB ConverterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7FE5DBF1E2048D500A85644 /* Hex___RGB_ConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hex___RGB_ConverterTests.swift"; sourceTree = "<group>"; };
+		A7FE5DC11E2048D500A85644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7FE5DC61E2048D500A85644 /* Hex - RGB ConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hex - RGB ConverterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7FE5DCA1E2048D500A85644 /* Hex___RGB_ConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Hex___RGB_ConverterUITests.swift"; sourceTree = "<group>"; };
+		A7FE5DCC1E2048D500A85644 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7FE5DA11E2048D500A85644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7FE5DB81E2048D500A85644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7FE5DC31E2048D500A85644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7FE5D9B1E2048D500A85644 = {
+			isa = PBXGroup;
+			children = (
+				A7FE5DA61E2048D500A85644 /* Hex - RGB Converter */,
+				A7FE5DBE1E2048D500A85644 /* Hex - RGB ConverterTests */,
+				A7FE5DC91E2048D500A85644 /* Hex - RGB ConverterUITests */,
+				A7FE5DA51E2048D500A85644 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7FE5DA51E2048D500A85644 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7FE5DA41E2048D500A85644 /* Hex - RGB Converter.app */,
+				A7FE5DBB1E2048D500A85644 /* Hex - RGB ConverterTests.xctest */,
+				A7FE5DC61E2048D500A85644 /* Hex - RGB ConverterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7FE5DA61E2048D500A85644 /* Hex - RGB Converter */ = {
+			isa = PBXGroup;
+			children = (
+				A7FE5DA71E2048D500A85644 /* AppDelegate.swift */,
+				A7FE5DA91E2048D500A85644 /* ViewController.swift */,
+				A7FE5DAB1E2048D500A85644 /* Main.storyboard */,
+				A7FE5DB11E2048D500A85644 /* Assets.xcassets */,
+				A7FE5DB31E2048D500A85644 /* LaunchScreen.storyboard */,
+				A7FE5DB61E2048D500A85644 /* Info.plist */,
+				A7FE5DAE1E2048D500A85644 /* Hex___RGB_Converter.xcdatamodeld */,
+			);
+			path = "Hex - RGB Converter";
+			sourceTree = "<group>";
+		};
+		A7FE5DBE1E2048D500A85644 /* Hex - RGB ConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7FE5DBF1E2048D500A85644 /* Hex___RGB_ConverterTests.swift */,
+				A7FE5DC11E2048D500A85644 /* Info.plist */,
+			);
+			path = "Hex - RGB ConverterTests";
+			sourceTree = "<group>";
+		};
+		A7FE5DC91E2048D500A85644 /* Hex - RGB ConverterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A7FE5DCA1E2048D500A85644 /* Hex___RGB_ConverterUITests.swift */,
+				A7FE5DCC1E2048D500A85644 /* Info.plist */,
+			);
+			path = "Hex - RGB ConverterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7FE5DA31E2048D500A85644 /* Hex - RGB Converter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7FE5DCF1E2048D500A85644 /* Build configuration list for PBXNativeTarget "Hex - RGB Converter" */;
+			buildPhases = (
+				A7FE5DA01E2048D500A85644 /* Sources */,
+				A7FE5DA11E2048D500A85644 /* Frameworks */,
+				A7FE5DA21E2048D500A85644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hex - RGB Converter";
+			productName = "Hex - RGB Converter";
+			productReference = A7FE5DA41E2048D500A85644 /* Hex - RGB Converter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7FE5DBA1E2048D500A85644 /* Hex - RGB ConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7FE5DD21E2048D500A85644 /* Build configuration list for PBXNativeTarget "Hex - RGB ConverterTests" */;
+			buildPhases = (
+				A7FE5DB71E2048D500A85644 /* Sources */,
+				A7FE5DB81E2048D500A85644 /* Frameworks */,
+				A7FE5DB91E2048D500A85644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7FE5DBD1E2048D500A85644 /* PBXTargetDependency */,
+			);
+			name = "Hex - RGB ConverterTests";
+			productName = "Hex - RGB ConverterTests";
+			productReference = A7FE5DBB1E2048D500A85644 /* Hex - RGB ConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A7FE5DC51E2048D500A85644 /* Hex - RGB ConverterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7FE5DD51E2048D500A85644 /* Build configuration list for PBXNativeTarget "Hex - RGB ConverterUITests" */;
+			buildPhases = (
+				A7FE5DC21E2048D500A85644 /* Sources */,
+				A7FE5DC31E2048D500A85644 /* Frameworks */,
+				A7FE5DC41E2048D500A85644 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7FE5DC81E2048D500A85644 /* PBXTargetDependency */,
+			);
+			name = "Hex - RGB ConverterUITests";
+			productName = "Hex - RGB ConverterUITests";
+			productReference = A7FE5DC61E2048D500A85644 /* Hex - RGB ConverterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7FE5D9C1E2048D500A85644 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Ricardo Perez";
+				TargetAttributes = {
+					A7FE5DA31E2048D500A85644 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BZ3MERU3H2;
+						ProvisioningStyle = Automatic;
+					};
+					A7FE5DBA1E2048D500A85644 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BZ3MERU3H2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A7FE5DA31E2048D500A85644;
+					};
+					A7FE5DC51E2048D500A85644 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BZ3MERU3H2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A7FE5DA31E2048D500A85644;
+					};
+				};
+			};
+			buildConfigurationList = A7FE5D9F1E2048D500A85644 /* Build configuration list for PBXProject "Hex - RGB Converter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7FE5D9B1E2048D500A85644;
+			productRefGroup = A7FE5DA51E2048D500A85644 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7FE5DA31E2048D500A85644 /* Hex - RGB Converter */,
+				A7FE5DBA1E2048D500A85644 /* Hex - RGB ConverterTests */,
+				A7FE5DC51E2048D500A85644 /* Hex - RGB ConverterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7FE5DA21E2048D500A85644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7FE5DB51E2048D500A85644 /* LaunchScreen.storyboard in Resources */,
+				A7FE5DB21E2048D500A85644 /* Assets.xcassets in Resources */,
+				A7FE5DAD1E2048D500A85644 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7FE5DB91E2048D500A85644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7FE5DC41E2048D500A85644 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7FE5DA01E2048D500A85644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7FE5DAA1E2048D500A85644 /* ViewController.swift in Sources */,
+				A7FE5DA81E2048D500A85644 /* AppDelegate.swift in Sources */,
+				A7FE5DB01E2048D500A85644 /* Hex___RGB_Converter.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7FE5DB71E2048D500A85644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7FE5DC01E2048D500A85644 /* Hex___RGB_ConverterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7FE5DC21E2048D500A85644 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7FE5DCB1E2048D500A85644 /* Hex___RGB_ConverterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7FE5DBD1E2048D500A85644 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7FE5DA31E2048D500A85644 /* Hex - RGB Converter */;
+			targetProxy = A7FE5DBC1E2048D500A85644 /* PBXContainerItemProxy */;
+		};
+		A7FE5DC81E2048D500A85644 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7FE5DA31E2048D500A85644 /* Hex - RGB Converter */;
+			targetProxy = A7FE5DC71E2048D500A85644 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7FE5DAB1E2048D500A85644 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7FE5DAC1E2048D500A85644 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7FE5DB31E2048D500A85644 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7FE5DB41E2048D500A85644 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7FE5DCD1E2048D500A85644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7FE5DCE1E2048D500A85644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7FE5DD01E2048D500A85644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BZ3MERU3H2;
+				INFOPLIST_FILE = "Hex - RGB Converter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.architsoft.Hex---RGB-Converter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A7FE5DD11E2048D500A85644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BZ3MERU3H2;
+				INFOPLIST_FILE = "Hex - RGB Converter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.architsoft.Hex---RGB-Converter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A7FE5DD31E2048D500A85644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BZ3MERU3H2;
+				INFOPLIST_FILE = "Hex - RGB ConverterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.architsoft.Hex---RGB-ConverterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hex - RGB Converter.app/Hex - RGB Converter";
+			};
+			name = Debug;
+		};
+		A7FE5DD41E2048D500A85644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BZ3MERU3H2;
+				INFOPLIST_FILE = "Hex - RGB ConverterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.architsoft.Hex---RGB-ConverterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hex - RGB Converter.app/Hex - RGB Converter";
+			};
+			name = Release;
+		};
+		A7FE5DD61E2048D500A85644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BZ3MERU3H2;
+				INFOPLIST_FILE = "Hex - RGB ConverterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.architsoft.Hex---RGB-ConverterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Hex - RGB Converter";
+			};
+			name = Debug;
+		};
+		A7FE5DD71E2048D500A85644 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = BZ3MERU3H2;
+				INFOPLIST_FILE = "Hex - RGB ConverterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.architsoft.Hex---RGB-ConverterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Hex - RGB Converter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7FE5D9F1E2048D500A85644 /* Build configuration list for PBXProject "Hex - RGB Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7FE5DCD1E2048D500A85644 /* Debug */,
+				A7FE5DCE1E2048D500A85644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7FE5DCF1E2048D500A85644 /* Build configuration list for PBXNativeTarget "Hex - RGB Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7FE5DD01E2048D500A85644 /* Debug */,
+				A7FE5DD11E2048D500A85644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A7FE5DD21E2048D500A85644 /* Build configuration list for PBXNativeTarget "Hex - RGB ConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7FE5DD31E2048D500A85644 /* Debug */,
+				A7FE5DD41E2048D500A85644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A7FE5DD51E2048D500A85644 /* Build configuration list for PBXNativeTarget "Hex - RGB ConverterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7FE5DD61E2048D500A85644 /* Debug */,
+				A7FE5DD71E2048D500A85644 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A7FE5DAE1E2048D500A85644 /* Hex___RGB_Converter.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A7FE5DAF1E2048D500A85644 /* Hex___RGB_Converter.xcdatamodel */,
+			);
+			currentVersion = A7FE5DAF1E2048D500A85644 /* Hex___RGB_Converter.xcdatamodel */;
+			path = "Hex___RGB_Converter.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A7FE5D9C1E2048D500A85644 /* Project object */;
+}
